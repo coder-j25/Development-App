@@ -1,0 +1,18 @@
+{
+  "name": "full-stack-contacts-2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd server && npm run test",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run start",
+    "start": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
